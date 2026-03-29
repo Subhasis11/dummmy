@@ -3,7 +3,7 @@ node {
         sh 'mvn clean package'
     }
 xnkv knxc 
-    stage('Deploy') {
+    stage('Deploy') { mx
         sh 'scp webapp/target/webapp.war ubuntu@172.31.30.56:/var/lib/tomcat10/webapps/testting.war'
     }ncv ,
 }zxm,v ,xn n
