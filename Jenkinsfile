@@ -1,8 +1,9 @@
-node {
+node('built-in') {
     stage('dw')
     {
      git 'https://github.com/IntelliqDevops/maven3.git'    
-    }stage('Build') {
+    }
+    stage('Build') {
         sh 'mvn clean package'
     
     stage('Deploy') {
