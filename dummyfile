@@ -1,0 +1,15 @@
+node('built-in'){
+    stage('ContiniousDownload')
+    {
+        git 'https://github.com/IntelliqDevops/maven3.git'
+    }
+    stage('ContiniousBuild')
+    {
+        sh 'mvn package'
+    }
+     stage('ContiniousDeployment')
+    {
+        sh 'scp  /var/lib/jenkins/workspace/demo/webapp/target/webapp.war ubuntu@172.31.30.56:/var/lib/tomcat10/webapps/testting.war'
+    }
+   
+}
