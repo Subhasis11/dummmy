@@ -1,4 +1,4 @@
-node('built-in') {
+node{
  stage('dw') {
         git 'https://github.com/Subhasis11/dummmy.git'
     }
