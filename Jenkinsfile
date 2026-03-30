@@ -6,7 +6,7 @@ node('built-in'){
         sh 'mvn clean package'
     }
   
-}
+}mkkknkn
 ioojj[n
 
 nkk
