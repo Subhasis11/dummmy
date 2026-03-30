@@ -5,7 +5,7 @@ node('built-in'){
     stage('Build') {
         sh 'mvn clean package'
     }
-  
+  ,,
 }mkkknkn
 ioojj[n
 'h
