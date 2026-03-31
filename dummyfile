@@ -2,7 +2,7 @@ node('built-in'){
     stage('ContiniousDownload')
     {
         git 'https://github.com/IntelliqDevops/maven3.git'
-    }
+    },m m,x
    
     
    
